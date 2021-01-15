@@ -29,6 +29,12 @@ public class Dept  implements java.io.Serializable {
        this.loc = loc;
        this.emps = emps;
     }
+    
+     public Dept(byte deptno, String dname, String loc) {
+       this.deptno = deptno;
+       this.dname = dname;
+       this.loc = loc;
+    }
    
     public byte getDeptno() {
         return this.deptno;
